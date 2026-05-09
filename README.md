@@ -1,6 +1,7 @@
 # AIPath
 
 **Website**: https://cs276finalproject.vercel.app/
+
 **Paper**: https://drive.google.com/file/d/1kHfQa9cCZhylNNVy1hmw1uo9e-CcsaWR/view?usp=sharing
 
 **AIPath** is a public-facing Next.js site for **AI fluency**, designed for **first-generation and low-income (FGLI)** undergraduates. It presents a six-module, milestone-based curriculum, emphasizes **career/domain relevance**, surfaces **peer stories and projects**, and collects interest sign-ups. The implementation reflects the participatory design findings and explicit design goals described in the Harvard CS 276 companion paper *Is AI Really an Equalizer? Lowering Barriers to AI Literacy for FGLI Students* (authors: Maya Ganesh, Hyungsik Kim, Jasmine Liu, Richael Saka). A PDF draft of that work lives locally as **`ImpactCorps_Final_Paper.pdf`**.
