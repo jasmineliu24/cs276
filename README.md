@@ -103,17 +103,3 @@ Defined in **`lib/modules.ts`**:
 6. **Presenting & Positioning Your Work** — Resumes, interviews, narratives.
 
 Public UI mirrors the paper’s milestone narrative (shared vocabulary → idea → literature → prototype → critique → story).
-
----
-
-## Citation / course context
-
-If you cite the companion paper, refer to **Harvard CS 276**, *Is AI Really an Equalizer? Lowering Barriers to AI Literacy for FGLI Students* (ACM-style meta in the PDF; proceedings details appear as **Conference TBD** in the manuscript). For the **local artifact** bundled with drafts:
-
-> **Impact Corps / CS 276:** `ImpactCorps_Final_Paper.pdf` — same substantive project lineage as AIPath (`cs276` course deliverable alongside this codebase).
-
----
-
-## License
-
-ISC (see **`package.json`**).
