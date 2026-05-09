@@ -8,7 +8,7 @@
 
 ---
 
-## Research background (from the paper)
+## Research background
 
 - **Problem:** AI is often portrayed as leveling the playing field, but **meaningful AI literacy** remains uneven. Many pathways assume **prior technical grounding** and do not foreground **structural barriers** FGLI students face (exposure, mentorship, clarity of pathways, career relevance).
 
