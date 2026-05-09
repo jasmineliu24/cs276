@@ -4,6 +4,14 @@
 
 **Paper**: https://drive.google.com/file/d/1kHfQa9cCZhylNNVy1hmw1uo9e-CcsaWR/view?usp=sharing
 
+**Student Feedback**:
+
+"I feel much more confident in becoming ready for internships and being in the workforce because I can use AI tools to improve my efficiency, which is what my internship boss wanted to see from me last summer. I have another internship this summer and I know I can be more proactive in reaching out because I have a stronger foundation through this engaging curriculum."
+
+"I wish I had this tool when I was back in high school so I could work on AI research projects that had real-world impact under mentorship and collaboration."
+
+"I really like how accessible this platform is and how it assumes no knowledge of AI. Learning from this platform means I don't need to be afraid of other people judging me for my lack of AI knowledge."
+
 AI tools are reshaping everyday work, from drafting and synthesis to coding, analysis, and decision support, yet using them well takes more than access to a chat window. Strong **AI literacy** means knowing enough to frame problems clearly, steer tools responsibly, verify outputs against evidence, and understand limits around bias, hallucination, and privacy. Across disciplines, those skills are increasingly affecting coursework, internships, interviews, and how people participate in workplaces that are experiencing heavy automation. When people only get fluent in AI through uneven informal exposure or advanced prerequisites, the gap is not just technical comfort but **longer-term opportunity**. Inclusive, practice-grounded learning is one way to keep AI from becoming another axis on which access diverges.
 
 **AIPath** is a site for **AI fluency**, designed for **first-generation and low-income (FGLI)** undergraduates. It presents a six-module, milestone-based curriculum, emphasizes **career/domain relevance**, surfaces **peer stories and projects**, and collects interest sign-ups. The implementation reflects the participatory design findings and explicit design goals described in the Harvard CS 276 companion paper *Is AI Really an Equalizer? Lowering Barriers to AI Literacy for FGLI Students* (authors: Maya Ganesh, Hyungsik Kim, Jasmine Liu, Richael Saka).
