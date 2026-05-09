@@ -6,7 +6,7 @@
 
 **Student Feedback**:
 
-"I feel much more confident in becoming ready for internships and being in the workforce because I can use AI tools to improve my efficiency, which is what my internship boss wanted to see from me last summer. I have another internship this summer and I know I can be more proactive in reaching out because I have a stronger foundation through this engaging curriculum."
+"I feel much more ready for internships and being in the workforce because I can use AI tools to improve my efficiency and quality of work, which is what my internship boss wanted to see from me last summer. I have another internship this summer and I know I can be more proactive in reaching out because I have a stronger foundation through this engaging curriculum."
 
 "I wish I had this tool when I was back in high school so I could work on AI research projects that had real-world impact under mentorship and collaboration."
 
