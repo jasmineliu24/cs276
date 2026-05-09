@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0e1b2c;
+  --paper: #f5f1e8;
+  --paper-deep: #ebe5d5;
+  --rule: #c8bfa8;
+  --terracotta: #b5483d;
+  --warm-gray: #6b6557;
+  --soft-gray: #8e8674;
+
+  /* Legacy aliases — kept so older inline color literals still resolve. */
+  --navy: var(--ink);
+  --amber: var(--terracotta);
+  --cream: var(--paper);
+}
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-body), 'IBM Plex Sans', system-ui, sans-serif;
+  font-feature-settings: "ss01", "ss02";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--terracotta);
+  color: var(--paper);
+}
+
+/* Editorial display type — italic Newsreader by default, with a roman fallback class. */
+.serif {
+  font-family: var(--font-serif), 'Newsreader', Georgia, serif;
+  font-style: italic;
+  font-feature-settings: "ss01";
+  letter-spacing: -0.01em;
+}
+
+.serif-roman {
+  font-family: var(--font-serif), 'Newsreader', Georgia, serif;
+  font-style: normal;
+  letter-spacing: -0.01em;
+}
+
+.mono {
+  font-family: var(--font-mono), 'IBM Plex Mono', ui-monospace, monospace;
+  font-feature-settings: "ss01";
+}
+
+/* Section index marker: §01 / SECTION TITLE */
+.section-mark {
+  font-family: var(--font-mono), 'IBM Plex Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--warm-gray);
+}
+
+/* A flat, restrained editorial card — no rounded corners, no shadow. */
+.sheet {
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .sheet { padding: 2rem; }
+}
+
+/* Hairline rule that sits across the full content column. */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+/* Mad-Libs-style inline blank for the hero career selector. */
+.blank {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  padding: 0 0.2em 0.05em;
+  border-bottom: 2px solid var(--terracotta);
+  color: var(--terracotta);
+  font-style: italic;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.blank:hover,
+.blank[data-open="true"] {
+  background: rgba(181, 72, 61, 0.08);
+}
+
+.blank-caret {
+  font-size: 0.6em;
+  transform: translateY(-0.2em);
+  color: var(--terracotta);
+}
+
+/* Legacy alias so older components still render. */
+.editorial-card {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 0;
+}
+
+/* Quietly distinct focus ring. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 3px;
+}
+
+/* Drop shadow only where genuinely needed (popovers). */
+.popover {
+  background: #fff;
+  border: 1px solid var(--rule);
+  box-shadow: 0 12px 28px -16px rgba(14, 27, 44, 0.35);
+}
